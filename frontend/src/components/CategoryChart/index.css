@@ -1,0 +1,49 @@
+.category-chart-container {
+  background-color: rgb(187, 187, 236) ; /* Similar gradient */
+  border-radius: 10px; /* Consistent border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for polish */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif; /* Matching font family */
+  margin: 40px auto; /* Center and space it consistently */
+  max-width: 90%; /* Responsive width */
+}
+
+.category-chart-container h2 {
+  font-size: 24px;
+  color: #151414; /* White text for contrast */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category-chart-container u {
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF; /* White underline */
+}
+
+.category-chart-container b {
+  color: #32CD32; /* Consistent green for month name */
+}
+
+.ResponsiveContainer {
+  width: 100%;
+  max-width: 600px; /* Control chart width for responsiveness */
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .category-chart-container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .category-chart-container h2 {
+    font-size: 20px;
+  }
+
+  .ResponsiveContainer {
+    height: 300px; /* Smaller chart size for mobile */
+  }
+}
